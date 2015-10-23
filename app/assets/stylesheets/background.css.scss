@@ -1,0 +1,93 @@
+body, html, main {
+	/* important */
+	height: 75%;
+}
+ 
+.cd-fixed-bg {
+	min-height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+ 
+.fbtextclass {
+	
+	text-align:center;
+}
+
+ //backgrounds
+
+.cd-fixed-bg.cd-bg-1 {
+  background-image: url('oceanblue.jpg'); 
+}
+.cd-fixed-bg.cd-bg-2 {
+  background-image: url('dock.jpg');
+}
+.cd-fixed-bg.cd-bg-3 {
+  background-image: url('mountain.jpg');
+}
+.cd-fixed-bg.cd-bg-4 {
+  background-image: url('plane.jpg');
+}
+.cd-fixed-bg.cd-bg-5 {
+  background-image: url('fireworks.jpg');
+}
+.cd-fixed-bg.cd-bg-6 {
+  background-image: url('night.jpg');
+}
+.cd-fixed-bg.cd-bg-7 {
+  background-image: url('skyskape.jpg');
+}
+.cd-fixed-bg.cd-bg-8 {
+  background-image: url('aurora.jpg');
+}
+.cd-fixed-bg.cd-bg-9 {
+  background-image: url('bamboo.jpg');
+}
+.cd-fixed-bg.cd-bg-10 {
+  background-image: url('bluescape.jpg');
+}
+
+
+
+// text ids
+
+.fbtextclass#fbtextid1 {
+	font-family: 'Roboto', sans-serif;
+}
+.fbtextclass#fbtextid2 {
+	font-family: 'Faster One', cursive;
+}
+.fbtextclass#fbtextid3 {
+	font-family: 'Indie Flower', cursive;
+}
+.fbtextclass#fbtextid4 {
+	font-family: 'Roboto', sans-serif;
+}
+.fbtextclass#fbtextid5{
+	font-family: 'Roboto', sans-serif;
+}
+.fbtextclass#fbtextid6 {
+	font-family: 'Faster One', cursive;
+}
+.fbtextclass#fbtextid7 {
+	font-family: 'Indie Flower', cursive;
+}
+.fbtextclass#fbtextid8 {
+	font-family: 'Roboto', sans-serif;
+}
+.fbtextclass#fbtextid7 {
+	font-family: 'Indie Flower', cursive;
+}
+.fbtextclass#fbtextid8 {
+	font-family: 'Roboto', sans-serif;
+}
+.fbtextclass#fbtextid9 {
+	font-family: 'Indie Flower', cursive;
+}
+.fbtextclass#fbtextid10 {
+	font-family: 'Roboto', sans-serif;
+}
+
+

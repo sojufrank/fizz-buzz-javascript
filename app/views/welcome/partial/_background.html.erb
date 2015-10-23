@@ -1,0 +1,124 @@
+<main>
+   <div class="cd-fixed-bg cd-bg-1">
+      <!-- Display Data -->
+      <div class="fbtextclass" id="fbtextid1">
+      </div>
+   </div>
+   <div class="cd-fixed-bg cd-bg-2">
+      <!-- Display Data -->
+      <div class="fbtextclass" id="fbtextid2">
+      </div>
+   </div>
+   <div class="cd-fixed-bg cd-bg-3">
+      <!-- Display Data -->
+      <div class="fbtextclass" id="fbtextid3">
+      </div>
+   </div>
+   <div class="cd-fixed-bg cd-bg-4">
+      <!-- Display Data -->
+      <div class="fbtextclass" id="fbtextid4">
+      </div>
+   </div>
+      <div class="cd-fixed-bg cd-bg-5">
+      <!-- Display Data -->
+      <div class="fbtextclass" id="fbtextid5">
+      </div>
+   </div>
+   <div class="cd-fixed-bg cd-bg-6">
+      <!-- Display Data -->
+      <div class="fbtextclass" id="fbtextid6">
+      </div>
+   </div>
+   <div class="cd-fixed-bg cd-bg-7">
+      <!-- Display Data -->
+      <div class="fbtextclass" id="fbtextid7">
+      </div>
+   </div>
+   <div class="cd-fixed-bg cd-bg-8">
+      <!-- Display Data -->
+      <div class="fbtextclass" id="fbtextid8">
+      </div>
+   </div>
+      <div class="cd-fixed-bg cd-bg-9">
+      <!-- Display Data -->
+      <div class="fbtextclass" id="fbtextid9">
+      </div>
+   </div>
+   <div class="cd-fixed-bg cd-bg-10">
+      <!-- Display Data -->
+      <div class="fbtextclass" id="fbtextid10">
+      </div>
+   </div>
+</main>
+
+<script>
+
+var random = function(){
+  return Math.floor(Math.random() * 10);
+}
+
+var random2 = function(x,y){
+  return Math.floor(Math.random() *(y-x)+x);
+}
+
+
+var color = function(){
+  if(random() < 2){
+    return "#FFF900";
+  }
+  else if(random() < 4){
+    return "#5849E8";
+  }
+  else if(random() < 6){
+    return "#E8392D";
+  }
+  else if(random() < 8){
+    return "#31EAFF";
+  }
+  else {
+    return "#E521FF";
+  }
+}
+
+var fizzBuzz = function(x,y) {
+  var fbreturn = [];
+    for (i = x; i <= y; i++) {
+        if (i % 3 === 0 && i % 5 === 0) {
+            fbreturn += "Fizz Buzz" +"<br>";
+        } 
+        else if (i % 3 === 0) {
+            fbreturn += "Fizz" +"<br>";
+        } 
+        else if (i % 5 === 0) {
+            fbreturn += "Buzz" +"<br>";
+        } 
+        else {
+            fbreturn += i +"<br>";
+        } 
+    }
+    return fbreturn;
+}
+
+document.getElementById('fbtextid1').innerHTML = fizzBuzz(1,10);
+document.getElementById('fbtextid2').innerHTML = fizzBuzz(11,20);
+document.getElementById('fbtextid3').innerHTML = fizzBuzz(21,30);
+document.getElementById('fbtextid4').innerHTML = fizzBuzz(31,40);
+document.getElementById('fbtextid5').innerHTML = fizzBuzz(41,50);
+document.getElementById('fbtextid6').innerHTML = fizzBuzz(51,60);
+document.getElementById('fbtextid7').innerHTML = fizzBuzz(61,70);
+document.getElementById('fbtextid8').innerHTML = fizzBuzz(71,80);
+document.getElementById('fbtextid9').innerHTML = fizzBuzz(81,90);
+document.getElementById('fbtextid10').innerHTML = fizzBuzz(91,100);
+
+
+for (i = 1; i < 10; i++){
+  var fb = document.getElementById('fbtextid'+ i)
+  fb.style.color = color();
+  fb.style.fontSize = random2(1,5)+"em";
+}
+
+</script>
+
+<link href='https://fonts.googleapis.com/css?family=Faster+One|Roboto|Indie+Flower' rel='stylesheet' type='text/css'>
+
+
