@@ -2,7 +2,7 @@ body, html, main {
 	/* important */
 	height: 100%;
 }
- 
+
 .cd-fixed-bg {
 	min-height: 100%;
 	background-size: cover;
@@ -16,7 +16,6 @@ body, html, main {
 	text-align:center;
 }
 
- //backgrounds background-image: url('https://s3.amazonaws.com/sojuheroku/dock.jpg'); 
 
 .cd-fixed-bg.cd-bg-1 {
   background-image: url('https://s3-us-west-2.amazonaws.com/sojuheroku/aurora.jpg'); 
@@ -50,44 +49,72 @@ body, html, main {
 }
 
 
-
-// text ids
-
-.fbtextclass#fbtextid1 {
-	font-family: 'Roboto', sans-serif;
+.lobster {
+	font-family: 'Lobster', cursive;
 }
-.fbtextclass#fbtextid2 {
+.bangers {
+	font-family: 'Bangers', cursive;
+}
+.grace {
+	font-family: 'Covered By Your Grace', cursive;
+}
+.hanalei {
+font-family: 'Hanalei', cursive;
+}
+.sacramento {
+	font-family: 'Sacramento', cursive;
+}
+.faster {
 	font-family: 'Faster One', cursive;
 }
-.fbtextclass#fbtextid3 {
-	font-family: 'Indie Flower', cursive;
+.akronim {
+	font-family: 'Akronim', cursive;
 }
-.fbtextclass#fbtextid4 {
-	font-family: 'Roboto', sans-serif;
+.press {
+	font-family: 'Press Start 2P', cursive;
 }
-.fbtextclass#fbtextid5{
-	font-family: 'Roboto', sans-serif;
+.londrina {
+	font-family: 'Londrina Sketch', cursive;
 }
-.fbtextclass#fbtextid6 {
-	font-family: 'Faster One', cursive;
+.monoton {
+	font-family: 'Monoton', cursive;
 }
-.fbtextclass#fbtextid7 {
-	font-family: 'Indie Flower', cursive;
+
+
+
+//colors
+
+.colorADA0F7 {
+	color: #ADA0F7;
 }
-.fbtextclass#fbtextid8 {
-	font-family: 'Roboto', sans-serif;
+.colorEF9FFF {
+	color: #EF9FFF;
 }
-.fbtextclass#fbtextid7 {
-	font-family: 'Indie Flower', cursive;
+.colorF0D9F9 {
+	color: #F0D9F9;
 }
-.fbtextclass#fbtextid8 {
-	font-family: 'Roboto', sans-serif;
+.colorD8FFFB {
+	color: #D8FFFB;
 }
-.fbtextclass#fbtextid9 {
-	font-family: 'Indie Flower', cursive;
+.color545463 {
+	color: #545463;
 }
-.fbtextclass#fbtextid10 {
-	font-family: 'Roboto', sans-serif;
+.color0055CC {
+	color: #0055CC;
 }
+.color264D60 {
+	color: #264D60;
+}
+.color6DA7AF {
+	color: #6DA7AF;
+}
+.colorDAD952 {
+	color: #DAD952;
+}
+.color392A4E {
+	color: #392A4E;
+}
+
+
 
 

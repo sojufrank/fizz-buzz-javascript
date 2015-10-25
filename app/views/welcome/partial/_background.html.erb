@@ -1,5 +1,6 @@
 <main>
    <div class="cd-fixed-bg cd-bg-1">
+        <%= render 'welcome/partial/navbar' %>
       <!-- Display Data -->
       <div class="fbtextclass" id="fbtextid1">
       </div>
@@ -63,37 +64,89 @@ var random2 = function(x,y){
 
 
 var color = function(){
-  if(random() < 2){
-    return "#FFF900";
+  if(random() < 1){
+    return "colorADA0F7";
+  }
+  else if(random() < 2){
+    return "colorEF9FFF";
+  }
+  else if(random() < 3){
+    return "colorF0D9F9";
   }
   else if(random() < 4){
-    return "#5849E8";
+    return "colorD8FFFB";
+  }
+  else if(random() < 5){
+    return "color545463";
   }
   else if(random() < 6){
-    return "#E8392D";
+    return "color0055CC";
+  }
+  else if(random() < 7){
+    return "color264D60";
   }
   else if(random() < 8){
-    return "#31EAFF";
+    return "color6DA7AF";
   }
-  else {
-    return "#E521FF";
+  else if(random() < 9){
+    return "colorDAD952";
+  }
+  else{
+    return "color392A4E";
   }
 }
+
+console.log(color(1,10));
+
+var font = function(){
+  if(random() < 1){
+    return "lobster";
+  }
+  else if(random() < 2){
+    return "bangers";
+  }
+  else if(random() < 3){
+    return "grace";
+  }
+  else if(random() < 4){
+    return "hanalei";
+  }
+  else if(random() < 5){
+    return "sacramento";
+  }
+  else if(random() < 6){
+    return "faster";
+  }
+  else if(random() < 7){
+    return "akronim";
+  }
+  else if(random() < 8){
+    return "press";
+  }
+  else if(random() < 9){
+    return "londrina";
+  }
+  else{
+    return "monoton";
+  }
+}
+
+
 
 var fizzBuzz = function(x,y) {
   var fbreturn = [];
     for (i = x; i <= y; i++) {
         if (i % 3 === 0 && i % 5 === 0) {
-            fbreturn += "Fizz Buzz" +"<br>";
+            fbreturn += "<h1 class='fa-spin fa-5x " + color(1,10) + " " + font(1,10) + "'><strong>Fizz Buzz</strong></h1>" +"<br>";
         } 
         else if (i % 3 === 0) {
-            fbreturn += "Fizz" +"<br>";
+            fbreturn += "<h2" + " class= ' " + color(1,10) + " " + font(1,10) + "'> Fizz</h2>" +"<br>";
         } 
         else if (i % 5 === 0) {
-            fbreturn += "Buzz" +"<br>";
+            fbreturn += "<h2" + " class= ' " + color(1,10) + " " + font(1,10) + "'> Buzz</h2>" +"<br>";
         } 
         else {
-            fbreturn += i +"<br>";
+            fbreturn += "<h2" + " class= ' " + color(1,10) + " " + font(1,10) + "'>" +i+ " </h2>" +"<br>";
         } 
     }
     return fbreturn;
@@ -111,14 +164,8 @@ document.getElementById('fbtextid9').innerHTML = fizzBuzz(81,90);
 document.getElementById('fbtextid10').innerHTML = fizzBuzz(91,100);
 
 
-for (i = 1; i < 10; i++){
-  var fb = document.getElementById('fbtextid'+ i)
-  fb.style.color = color();
-  fb.style.fontSize = random2(1,5)+"em";
-}
-
 </script>
 
-<link href='https://fonts.googleapis.com/css?family=Faster+One|Roboto|Indie+Flower' rel='stylesheet' type='text/css'>
-
+<link href='https://fonts.googleapis.com/css?family=Lobster|Bangers|Covered+By+Your+Grace|Hanalei|Sacramento|Faster+One|Akronim|Press+Start+2P|Londrina+Sketch|Monoton' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
